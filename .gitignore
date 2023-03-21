@@ -1,0 +1,6 @@
+bot/code.py
+.env
+openai-bot.code-workspace
+vectorIndex.json
+bot/openaihelper.py
+data/data.txt
