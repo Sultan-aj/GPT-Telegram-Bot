@@ -12,18 +12,18 @@ To use GPT-Telegram Bot, follow these steps:
 ```
 TELEGRAM_BOT_API_KEY=<your-telegram-bot-api-key> 
 ```
-5. Open bot.py and add your Telegram API key:
+5. Open `bot.py` and add your Telegram API key:
 ```
 TELEGRAM_API_KEY = os.environ.get("TELEGRAM_BOT_API_KEY")
 ```
 
-6. Open wrapper.py and add your OpenAI API key:
+6. Open `wrapper.py` and add your OpenAI API key:
 ```
 os.environ['openai_api_key'] = "ADD OPENAI API KEY" 
 ```
 
-7. Run python wrapper.py to create the vectorIndex.json file.
-8. Run python bot.py to start the Telegram bot.
+7. Run python `wrapper.py` to create the vectorIndex.json file.
+8. Run python `bot.py` to start the Telegram bot.
 
 
 
