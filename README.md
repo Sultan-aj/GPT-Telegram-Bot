@@ -8,7 +8,7 @@ To use GPT-Telegram Bot, follow these steps:
 2. Install the required Python packages by running 
 ```pip install -r requirements.txt```
 3. Set up a Telegram bot and obtain an API key. See [Telegram's Bot API documentation](https://core.telegram.org/bots#how-do-i-create-a-bot) for instructions.
-4. Create a `.env` file in the root directory of the project and add the telegram bot API in the following line: 
+4. Create a `.env` file in the root directory of the project and add the telegram bot API to the following line: 
 ```
 TELEGRAM_BOT_API_KEY=<your-telegram-bot-api-key> 
 ```
